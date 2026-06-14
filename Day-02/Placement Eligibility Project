@@ -1,0 +1,13 @@
+console.log("STUDENT ELEGIBILITY CHECKER FOR PLACEMENTS")
+let name = prompt("enter your name:")
+let cgpa = Number(prompt("enter your cgpa:"))
+let backlog = Number(prompt("enter your backlogs:"))
+if(cgpa > 7 && backlog == 0){
+    console.log(`${name} is eligible`)
+}
+else{
+    console.log("not eligible")
+}
+
+
+
