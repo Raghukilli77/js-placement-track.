@@ -1,0 +1,13 @@
+//simple login system
+const user = "admin"
+const pwd = 1234;
+let username = prompt("entreruser name: ")
+let password = Number(prompt("enter password: "))
+if(username == user && password == pwd)
+{
+    console.log("login succesfull")
+}
+else
+{
+    console.log("invalid creditionals")
+}
