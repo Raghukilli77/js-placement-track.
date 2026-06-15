@@ -1,0 +1,19 @@
+//placement company eligibility
+let name = prompt("enter student name: ")
+let cgpa = Number(prompt("enter cgpa: "))
+let backlog = Number(prompt("enter backlog: "))
+
+console.log(`${name}\n`)
+console.log("eligible for:\n")
+if(cgpa >=6.5 && backlog == 0)
+{
+    console.log("TCS")
+}
+ if(cgpa >=7 && backlog == 0)
+{
+    console.log("Infosys")
+}
+ if(cgpa >=8.5 && backlog == 0)
+{
+    console.log("Amazon")
+}
