@@ -1,0 +1,42 @@
+//function
+function greet(name){
+    console.log(`hello ${name}`)
+}
+greet("raghu");
+greet("roy");
+
+//function to get square value
+function square(num){
+    return num*num;
+}
+let res = square(5);
+console.log(res)
+
+//function to check whether the num is even or odd
+function iseven (num){
+    if(num % 2 == 0)
+    {
+        console.log("even")
+    }
+    else
+    {
+        console.log("odd")
+    }
+}
+iseven(10);
+
+//function to check largest number
+function findlarg (a,b){
+    if(a>b)
+    {
+        console.log(`${a} is largest`)
+    }
+    else
+    {
+        console.log(`${b} is largest`)
+    }
+}
+findlarg(10,20);
+//function to caluculate grades
+
+
