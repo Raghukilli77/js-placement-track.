@@ -1,0 +1,39 @@
+let fruits = ["apple","banana","kiwi","mango","papaya"];
+console.log(fruits[0])
+for(let i=0;i < fruits.length;i++)
+{
+    console.log(fruits[i]);
+}
+// let n =Number(prompt("enter n:"));
+// console.log("enter elemenets:");
+let marks = [10,12,13,14,15];
+sum=0;
+for(let i=0;i < marks.length;i++)
+{
+    sum+=marks[i];
+}
+console.log(sum);
+let max=marks[0];
+for(let i=1;i < marks.length;i++)
+{
+    if(max < marks[i])
+    {
+        max = marks[i];
+    }
+}
+console.log(max);
+let n =Number(prompt("enter n:"));
+let markss =[];
+for(let i=0;i<n;i++)
+{
+    let mark = Number(prompt(`enter mark ${i +1}:`));
+    markss.push(mark);
+}
+console.log(markss);
+
+
+
+
+
+
+
