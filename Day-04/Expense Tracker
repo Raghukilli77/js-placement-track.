@@ -1,26 +1,27 @@
 //expense trackere
 let n =Number(prompt("enter number of expenses:"));
-let expense =[];
+let expenses =[];
 for(let i=0;i<n;i++)
 {
     let expens = Number(prompt(`enter expense value of${i +1}:`));
-    marks.push(expense);
+    expenses.push(expens);
 }
+console.log(expenses)
 let sum=0;
 for(let i=0;i< n;i++)
 {
-    sum+=expense[i];
+    sum+=expenses[i];
 }
-let max = expense[0],min = expense[0];
+let max = expenses[0],min = expenses[0];
 for(let i=1;i< n;i++)
 {
-    if(max < expense[i])
+    if(max < expenses[i])
     {
-        max = expense[i];
+        max = expenses[i];
     }
-     if(min > expense[i])
+     if(min > expenses[i])
     {
-        min = expense[i];
+        min = expenses[i];
     }
 }
 let average = sum/n;
