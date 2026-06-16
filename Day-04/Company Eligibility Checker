@@ -1,0 +1,38 @@
+console.log("Company Eligibility Checker\n");
+
+let name = prompt("enter name of the student:")
+let cgpa = Number(prompt("enter your cgpa:"))
+let backlog = Number(prompt("enter your backlog:"))
+
+let companies = [
+    "TCS",
+    "Infosys",
+    "Amazon"
+];
+
+let requiredCGPA = [
+    6.5,
+    7,
+    8.5
+];
+console.log("\neligible for:\n");
+for(let i=0; i< companies.length;i++)
+{
+    if(requiredCGPA[i] <= cgpa && backlog == 0)
+    {
+        console.log(companies[i]);
+    }
+}
+console.log("\nnot eligible for:\n");
+for(let i=0; i< companies.length;i++)
+{
+    if(!(requiredCGPA[i] <= cgpa && backlog == 0))
+    {
+        console.log(companies[i]);
+    }
+}
+
+
+
+
+
