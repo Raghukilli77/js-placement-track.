@@ -1,0 +1,32 @@
+console.log("Company Eligibility Checker\n");
+
+let students = [
+ { name: "Roy", cgpa: 8.7, backlogs: 0 },
+ { name: "Alex", cgpa: 6.5, backlogs: 1 },
+ { name: "John", cgpa: 7.5, backlogs: 0 }
+];
+
+let requiredCGPA = [6.5, 7, 8.5];
+let companies = ["TCS", "Infosys", "Amazon"];
+
+// Loop through each student one by one
+for (let s = 0; s < students.length; s++) {
+    console.log(`--- Results for ${students[s].name} ---`);
+    
+    let eligible = [];
+    let notEligible = [];
+
+    // Check this student against all companies
+    for (let c = 0; c < companies.length; c++) {
+        // FIXED: Changed .backlog to .backlogs
+        if (students[s].cgpa >= requiredCGPA[c] && students[s].backlogs === 0) {
+            eligible.push(companies[c]);
+        } else {
+            notEligible.push(companies[c]);
+        }
+    }
+
+    console.log("Eligible for: " + (eligible.length > 0 ? eligible.join(", ") : "None"));
+    console.log("Not eligible for: " + (notEligible.length > 0 ? notEligible.join(", ") : "None"));
+    console.log("\n");
+}
