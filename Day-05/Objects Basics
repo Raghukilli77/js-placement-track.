@@ -59,3 +59,19 @@ for(let key in mobiles){
     console.log(key + ": " + mobiles[key]);
 
 }
+let marks = [
+ {name:"Roy",cgpa:8.5},
+ {name:"Alex",cgpa:7.8},
+ {name:"John",cgpa:9.1}
+]
+if(marks[0].cgpa >= marks[1].cgpa && marks[0].cgpa >= marks[2].cgpa)
+{
+    console.log(`${marks[0].name}-${marks[0].cgpa}`)
+}
+else if(marks[1].cgpa >= marks[0].cgpa && marks[1].cgpa >= marks[2].cgpa)
+{
+    console.log(`${marks[1].name}-${marks[1].cgpa}`)
+}
+else{
+    console.log(`${marks[2].name}-${marks[2].cgpa}`)
+}
