@@ -38,3 +38,24 @@ let books = [
 console.log(books)
 console.log(books[0])
 console.log(books[1].price)                                                                                                                                                             
+
+let mobiles ={
+    name: "iphone",
+    os:"ios",
+    price: 49000
+};
+// console.log(mobiles)
+// console.log(mobiles.name)
+// console.log(mobiles.os)
+// console.log(mobiles.price)
+// mobiles.model = "17 pro"
+// console.log(mobiles)
+let n= Object.values(mobiles);
+for(let i=0;i< n.length;i++)
+{
+    console.log(n[i]);
+}
+for(let key in mobiles){
+    console.log(key + ": " + mobiles[key]);
+
+}
