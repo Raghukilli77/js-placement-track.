@@ -1,0 +1,27 @@
+//student management system
+let students = [
+    {
+        name: "Roy",
+        cgpa: 8.5,
+        age: 18,
+        branch:"IT"
+    },
+    {
+        name: "Alex",
+        cgpa: 7.8,
+        age : 19,
+        branch :"CSE"
+    },
+    {
+        name: "John",
+        cgpa: 9.1,
+        age : 20,
+        branch :"CME"
+    }
+];
+for(let key of students){
+console.log(key.name + "\n" + 
+                key.cgpa + "\n" + 
+                key.age + "\n" + 
+                key.branch);
+}
