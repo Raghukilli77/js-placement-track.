@@ -1,0 +1,40 @@
+let mobiles ={
+    name: "iphone",
+    os:"ios",
+    price: 49000
+};
+console.log(mobiles)
+console.log(mobiles.name)
+console.log(mobiles.os)
+console.log(mobiles.price)
+mobiles.model = "17 pro"
+console.log(mobiles)
+
+let employee = {
+    name: "Rahul",
+    salary: 30000
+};
+console.log(employee)
+employee.department = "IT"
+console.log(employee)
+let book = {
+    title: "JavaScript Basics",
+    price: 500
+};
+console.log(book)
+book.price = 650
+console.log(book)
+
+let books = [
+    {
+    title: "JavaScript Basics",
+    price: 500
+    },
+    {
+    title: "html",
+    price: 600
+    }
+];
+console.log(books)
+console.log(books[0])
+console.log(books[1].price)                                                                                                                                                             
