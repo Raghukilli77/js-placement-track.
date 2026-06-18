@@ -1,0 +1,11 @@
+function submitdetails()
+{
+    let studentname =
+    document.getElementById("studentname").value;
+     let studentage =
+    Number(document.getElementById("studentage").value);
+     let studentbranch =
+    document.getElementById("studentbranch").value;
+    document.getElementById("details").innerText = `Name: ${studentname}\nAge: ${studentage}\nBranch: ${studentbranch}`;
+
+}
