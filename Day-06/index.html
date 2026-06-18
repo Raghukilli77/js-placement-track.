@@ -1,0 +1,41 @@
+<!--index.html-->
+<html>
+    <head>
+        <title>sample</title>
+    </head>
+    <body>
+        <h1 id="title">Welcome</h1>
+        <script src="app.js"></script>
+        <button onclick="changeText()">
+        Click Me
+        </button>
+        <button onclick="showMessage()">
+        Click Me
+         </button>
+        <input type="text" id="name">
+        <button onclick="submit()">submit</button>
+        <p id="res"></p>
+        <h4>addition</h4>
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+        <button onclick="add()">add</button>
+        <p id="addition"></p>
+        <br>
+        <legend>enter student details</legend>
+        <br>
+        <label for="studentname">studentname:</label>
+        <input type="text" id="studentname" placeholder="enter your name:">
+        <br>
+        <label for="studentage">stuednt age:</label>
+        <input type="number" id="studentage" placeholder="enter age:">
+        <br>
+        <label for="studentbranch">stuednt branch:</label>
+        <select id="studentbranch">
+            <option value="" disabled selected hidden>Choose your branch...</option>
+            <option value="CSE">CSE</option>
+            <option value="MECH">MECH</option>
+        </select>
+        <button onclick="submitdetails()">submitdetails</button>
+        <p id="details"></p>
+    </body>
+</html>
