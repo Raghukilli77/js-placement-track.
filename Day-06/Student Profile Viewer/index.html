@@ -1,0 +1,28 @@
+<!--index.html-->
+<html>
+    <head>
+        <title>sample</title>
+    </head>
+    <body>
+        <h1 id="title">Welcome</h1>
+        <script src="app.js"></script>
+       
+        <legend>enter student details</legend>
+        <br>
+        <label for="studentname">studentname:</label>
+        <input type="text" id="studentname" placeholder="enter your name:">
+        <br>
+        <label for="studentage">stuednt age:</label>
+        <input type="number" id="studentage" placeholder="enter age:">
+        <br>
+        <label for="studentbranch">stuednt branch:</label>
+        <select id="studentbranch">
+            <option value="" disabled selected hidden>Choose your branch...</option>
+            <option value="CSE">CSE</option>
+            <option value="MECH">MECH</option>
+        </select>
+        <button onclick="submitdetails()">submitdetails</button>
+        <h3>student details>/h3>
+        <p id="details"></p>
+    </body>
+</html>
