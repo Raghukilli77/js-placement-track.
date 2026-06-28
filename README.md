@@ -8,31 +8,32 @@ A structured JavaScript learning journey focused on placements, problem-solving,
 ✅ Operators & Conditional Statements
 ✅ Functions
 ✅ Arrays & Loops
-✅ Objects & Arrays of Objects
+✅ Objects
 ✅ DOM Manipulation
 ✅ Events & Event Listeners
-✅ Dynamic DOM Updates
 ✅ Form Validation
+✅ Local Storage
+✅ ES6 Features
+✅ Asynchronous JavaScript
+✅ Fetch API
+✅ Promises & Async/Await
 
 ## Projects Built
 
-* Student Profile Generator
-* Placement Eligibility Checker
-* Login System
-* Student Report Card
+* Student Management System
 * ATM Simulator
 * Expense Tracker
-* Student Marks Analyzer
-* Student Management System
-* Age Calculator
-* Student Profile Viewer
-* Counter App
-* Dynamic Student List
 * Notes App
 * To-Do App
-* Login Validation
+* Login System
 * Student Registration Form
-* Feedback Form
+* Counter App
+* Digital Clock
+* Random Joke App
+* Random User App
+* Quote Generator
+* User Directory App
+* Weather App (Basic)
 
 ## Technologies Used
 
@@ -44,7 +45,7 @@ A structured JavaScript learning journey focused on placements, problem-solving,
 
 ## Progress
 
-✅ Day 1 - Day 10 Completed
+🔥 Day 1 - Day 15 Completed
 
 ## Goal
 
